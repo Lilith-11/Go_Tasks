@@ -9,4 +9,5 @@ func main(){
 	}else{
 		fmt.Println("your entered number is odd")
 	}
+	fmt.Println("The program is completed")
 }
