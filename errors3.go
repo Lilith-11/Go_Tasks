@@ -1,6 +1,6 @@
 package main
 import "fmt"
-readfile(filename string)(string,error){
+func readfile(filename string)(string,error){
       if filename==""{
 		return "",fmt.Errorf("the file has no content")
 	  }
